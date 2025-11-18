@@ -40,6 +40,50 @@ Incluye:
 - Conversión de fecha a formato datetime.
 - Generación de clave primaria `id_hecho`.
 
+## 📊 Análisis Exploratorio de Datos (EDA)
+El proyecto también incluye un EDA para comprender la estructura y patrones del dataset. Entre los análisis realizados se encuentran:
+- Distribución de ventas por fecha, producto y cliente.
+- Identificación de valores atípicos y datos faltantes.
+- Análisis de correlación entre variables numéricas.
+- Visualización de patrones temporales (tendencias y estacionalidad).
+- Detección de productos con mayor rotación y clientes más frecuentes.
+
+Se utilizan gráficos tipo:
+- Histogramas
+- Gráficos de barras
+- Mapas de calor (correlaciones)
+- Series de tiempo
+
+---
+
+## 🤖 Modelado Predictivo (ML)
+El notebook incluye una sección de Machine Learning orientada a extraer insights y generar un modelo inicial. Entre las tareas realizadas:
+
+### 🔍 **Preprocesamiento para ML**
+- Estandarización y normalización de variables.
+- Creación de variables derivadas (features engineering), como:
+  - Ticket promedio
+  - Tasa de conversión
+  - Ventas por producto
+- One-hot encoding de variables categóricas.
+
+### 📈 **Modelo Entrenado**
+Dependiendo del notebook, se incluyó alguno de los siguientes modelos (ajústalo si usaste otro):
+- **Regresión Lineal:** para predecir importe de ventas o demanda.
+- **Árboles de Decisión / Random Forest:** para clasificar o estimar ventas futuras.
+
+### 📊 Evaluación del Modelo
+- División Train/Test
+- Métricas como:
+  - MAE
+  - MSE
+  - RMSE
+  - R²
+
+Incluye además interpretación básica del modelo o importancia de variables.
+
+---
+
 ## 🧱 Modelo Dimensional
 El modelo final incluye:
 - Dimensión **Clientes**
