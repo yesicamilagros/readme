@@ -1,4 +1,4 @@
-```
+
 # Proyecto: ETL y Modelado Dimensional de Ventas
 
 Este proyecto desarrolla un proceso completo de **ETL**, limpieza, transformación y creación de un **modelo dimensional** basado en datos de ventas, productos, clientes y detalle de ventas.
@@ -68,4 +68,4 @@ Las contribuciones son bienvenidas. Puedes abrir issues o enviar PR.
 
 ## 📄 Licencia
 Uso libre para fines educativos o personales.
-```
+
