@@ -203,6 +203,11 @@ Dependiendo del notebook, se incluyó alguno de los siguientes modelos (ajústal
 
 Incluye además interpretación básica del modelo o importancia de variables.
 
+### GRAFICO DE MUESTRA
+
+![pipeline](https://github.com/user-attachments/assets/61eda20d-efb9-424e-99a2-ddeb680f3676)
+
+
 ## 💻 Desarrollo
 
 Este proyecto sigue las convenciones de **Conventional Commits**:
