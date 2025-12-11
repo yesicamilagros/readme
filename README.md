@@ -181,9 +181,7 @@ En esta sección de Machine Learning orientada a extraer insights y generar un m
 ### 🔍 **Preprocesamiento para ML**
 - Estandarización y normalización de variables.
 - Creación de variables derivadas (features engineering), como:
-  - visitantes_totales
-   - Ticket promedio
-  - Tasa de conversión
+   - precio unitario promedio
   - cantidad_productos
   - importe_total' (varaible a predecir)
 - One-hot encoding de variables categóricas.
@@ -191,6 +189,8 @@ En esta sección de Machine Learning orientada a extraer insights y generar un m
 ### 📈 **Modelo Entrenado**
 Dependiendo del notebook, se incluyó alguno de los siguientes modelos (ajústalo si usaste otro):
 - **Regresión Lineal:** para predecir importe de ventas o demanda.
+-  <img width="623" height="239" alt="image" src="https://github.com/user-attachments/assets/d92d2b2c-ae96-4c95-aa70-4324021563df" />
+
 - **Árboles de Decisión / Random Forest:** para clasificar o estimar ventas futuras.
 
 ### 📊 Evaluación del Modelo
