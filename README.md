@@ -188,10 +188,17 @@ En esta sección de Machine Learning orientada a extraer insights y generar un m
 
 ### 📈 **Modelo Entrenado**
 Dependiendo del notebook, se incluyó alguno de los siguientes modelos (ajústalo si usaste otro):
-- **Regresión Lineal:** para predecir importe de ventas o demanda.
+- **Regresión Lineal:** para predecir importe de ventas para tiempos posteriores
 -  <img width="623" height="239" alt="image" src="https://github.com/user-attachments/assets/d92d2b2c-ae96-4c95-aa70-4324021563df" />
+-  <img width="247" height="368" alt="image" src="https://github.com/user-attachments/assets/defa04e4-d543-42bc-9a7b-a205ca2911d2" />
 
-- **Árboles de Decisión / Random Forest:** para clasificar o estimar ventas futuras.
+
+- **K-means:** para clasificar las probables ciudades de origen de nuestros clientes
+
+- <img width="310" height="115" alt="image" src="https://github.com/user-attachments/assets/f2df46d5-7ddb-4279-a007-b8dd1b51b197" />
+- <img width="854" height="556" alt="image" src="https://github.com/user-attachments/assets/7cc6e386-301e-417e-9b80-4e49bb36383b" />
+
+
 
 ### 📊 Evaluación del Modelo
 - División Train/Test
