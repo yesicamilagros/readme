@@ -198,7 +198,19 @@ Dependiendo del notebook, se incluyó alguno de los siguientes modelos (ajústal
 - <img width="310" height="115" alt="image" src="https://github.com/user-attachments/assets/f2df46d5-7ddb-4279-a007-b8dd1b51b197" />
 - <img width="854" height="556" alt="image" src="https://github.com/user-attachments/assets/7cc6e386-301e-417e-9b80-4e49bb36383b" />
 
+###📈 **proceso de modelos**
+- importar el dataset preprocesado
+  * aplicar el modelo de regresion lineal para ventas futuras
+  * generar variables agregadas a partir de precio_unitario , cantidad ,
+  * la variable objetivo es importe total por fecha
+  * generar tabla resultante a partir de los items anteriores
+  * aplicar el algoritmo de regresion a la tabla resultante (definir varaible objetivo ventas , division de train-test) , evaluar modelo con mse y R2 , realizar la          simulacion con un mes determinado o fecha al modelo listo.
+    
+- Crear los clústers con K-means usando las columnas numéricas y categóricas.
 
+  * ciudad aparece más en cada clúster.
+  * Etiquetas el clúster con esa ciudad dominante.
+  * Cuando llega un cliente nuevo, K-means lo asigna a un clúster → tú devuelves la ciudad dominante de ese clúster como “predicción aproximada”.
 
 ### 📊 Evaluación del Modelo
 - División Train/Test
@@ -210,7 +222,7 @@ Dependiendo del notebook, se incluyó alguno de los siguientes modelos (ajústal
 
 Incluye además interpretación básica del modelo o importancia de variables.
 
-### GRAFICO DE MUESTRA
+### pipeline
 
 ![pipeline](https://github.com/user-attachments/assets/61eda20d-efb9-424e-99a2-ddeb680f3676)
 
